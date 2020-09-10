@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "outDir": "./run",
+        "noEmit": false,
+        "moduleResolution": "node",
+        "declaration": false,
+        "downlevelIteration": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "pretty": true,
+        "strict": true,
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+    },
+    "include": [
+        "./src/**/*",
+    ]
+}

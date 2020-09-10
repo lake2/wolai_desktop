@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.detectIndentation": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.formatOnSave": true,
+		"editor.foldingStrategy": "indentation",
+		"files.insertFinalNewline": true,
+		"typescript.tsdk": "./node_modules/typescript/lib",
+		"window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${appName}"
+	}
+}
