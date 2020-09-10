@@ -1,8 +1,8 @@
 let wolai_theme = localStorage.getItem('wolai_theme');
+const remote: Electron.Remote = require('electron').remote;
 
 function enhance() {
     const $: JQueryStatic = require('jquery');
-    const remote: Electron.Remote = require('electron').remote;
 
     (() => {
         const $container = $('#wolai-page-layout > div:first');
@@ -53,15 +53,6 @@ function enhance() {
             $sidebar.children().css({ '-webkit-app-region': 'no-drag' });
         }
     })();
-
-    (() => {
-        $(document).keydown(function (e) {
-            const keyCode = e.keyCode || e.which;
-            if (keyCode === 123) {
-                remote.BrowserWindow.getFocusedWindow()?.webContents.openDevTools();
-            }
-        });
-    })();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -76,4 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 以上述配置开始观察目标节点
     observer.observe(document.body, config);
+
+    (() => {
+        $(document).keydown(function (e: any) {
+            const keyCode = e.keyCode || e.which;
+            if (keyCode === 123) {
+                remote.BrowserWindow.getFocusedWindow()?.webContents.openDevTools();
+            }
+        });
+    })();
 });
