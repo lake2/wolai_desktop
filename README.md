@@ -9,6 +9,8 @@
 
 ![3](https://user-images.githubusercontent.com/6293752/92937441-eb0fec00-f47d-11ea-8265-07eb9bda55bd.gif)
 
+### 离开了写作（工作区），如何返回？
+点击右上角的我来logo，可以返回工作区。
 
 ## mac
 
