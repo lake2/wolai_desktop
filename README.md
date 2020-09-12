@@ -18,9 +18,9 @@
 
 ## mac
 
-![mac](https://user-images.githubusercontent.com/6293752/92745205-bc7a0e80-f3b4-11ea-9edf-7895a908f1cc.png)
+![mac](https://images.gitee.com/uploads/images/2020/0912/153238_478a1c6a_2068361.png)
 
 ## window
 
-![windows](https://user-images.githubusercontent.com/6293752/92745274-cbf95780-f3b4-11ea-90ec-7ec99b5e5280.png)
+![windows](https://images.gitee.com/uploads/images/2020/0912/153246_9455cb78_2068361.png)
 
