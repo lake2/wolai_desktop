@@ -19,6 +19,10 @@
 1. 拖动右上角的“+”。
 2. 拖动左边“模板”和“垃圾桶”下面的大片空白区域。
 
+### 如何打开调试工具（devtool）？
+
+F12
+
 ## mac
 
 ![mac](https://images.gitee.com/uploads/images/2020/0912/153238_478a1c6a_2068361.png)
