@@ -1,6 +1,9 @@
 # wolai客户端（非官方）
 
-## [下载](https://gitee.com/lake2/wolai_desktop/releases)
+## 下载
+
+- [国内（gitee.com）](https://gitee.com/lake2/wolai_desktop/releases)
+- [国外（github.com）](https://github.com/lake2/wolai_desktop/releases)
 
 ## 疑问
 
