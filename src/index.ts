@@ -11,9 +11,7 @@ function createWindow() {
     const bounds = store.bounds.get();
     const options = {
         width: bounds?.width || 1280,
-        minWidth: 1280,
         height: bounds?.height || 830,
-        minHeight: 830,
         x: bounds?.x,
         y: bounds?.y,
         frame: false,
