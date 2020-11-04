@@ -52,6 +52,11 @@ function enhance() {
             $sidebar.css({ '-webkit-app-region': 'drag' });
             $sidebar.children().css({ '-webkit-app-region': 'no-drag' });
         }
+
+        const $headerbar = $('#wolai-header-bar');
+        if ($headerbar.length === 1) {
+            $headerbar.css({ '-webkit-app-region': 'no-drag' });
+        }
     })();
 }
 

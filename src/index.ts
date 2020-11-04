@@ -28,7 +28,7 @@ function createWindow() {
 
     // 取消windows菜单
     win.setMenu(null);
-    win.loadURL('https://www.wolai.com/');
+    win.loadURL('https://www.wolai.com/login');
 
     win.once('ready-to-show', () => {
         win.show();
