@@ -19,6 +19,7 @@ function createWindow() {
         show: false,
         skipTaskbar: false,
         webPreferences: {
+            spellcheck: false,
             nodeIntegration: false,
             enableRemoteModule: true,
             preload: path.join(__dirname, 'inject.js')
@@ -79,7 +80,20 @@ function createWindow() {
     // #endregion
 
     // #region mac menu
-    const macMenu = [{ label: '我来', submenu }];
+    const macMenu = [
+        { label: '我来', submenu },
+        {
+            label: "编辑",
+            submenu: [
+                { label: "撤销", accelerator: "CmdOrCtrl+Z", selector: "undo:" },
+                { label: "重做", accelerator: "Shift+CmdOrCtrl+Z", selector: "redo:" },
+                { label: "剪切", accelerator: "CmdOrCtrl+X", selector: "cut:" },
+                { label: "复制", accelerator: "CmdOrCtrl+C", selector: "copy:" },
+                { label: "粘贴", accelerator: "CmdOrCtrl+V", selector: "paste:" },
+                { label: "选择所有", accelerator: "CmdOrCtrl+A", selector: "selectAll:" }
+            ]
+        }
+    ];
     Menu.setApplicationMenu(Menu.buildFromTemplate(macMenu));
     // #endregion
 }
